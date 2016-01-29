@@ -2,32 +2,45 @@ Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) Iris(TM) Graphics 5100 (ID=0xa2e)
+    Renderer: Intel(R) HD Graphics 530 (ID=0x191b)
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Liang Peng\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 59Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\itoup\Documents\GitHub\CIS568\HW2\Build\alpha2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.643517 ms
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: a48 -> priority: 1 
+UnloadTime: 0.594172 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1858 -> priority: 1 
+  Thread -> id: 18c0 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.180042 ms
+UnloadTime: 8.950119 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 413.
-Total: 0.335162 ms (FindLiveObjects: 0.025206 ms CreateObjectMapping: 0.020479 ms MarkObjects: 0.280418 ms  DeleteObjects: 0.008664 ms)
+Total: 0.515950 ms (FindLiveObjects: 0.032395 ms CreateObjectMapping: 0.033185 ms MarkObjects: 0.435357 ms  DeleteObjects: 0.013827 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.495308 ms
+
+Unloading 193 unused Assets to reduce memory usage. Loaded Objects now: 218.
+Total: 1.006616 ms (FindLiveObjects: 0.071111 ms CreateObjectMapping: 0.052938 ms MarkObjects: 0.469333 ms  DeleteObjects: 0.411654 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.322171 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.529777 ms (FindLiveObjects: 0.041086 ms CreateObjectMapping: 0.029234 ms MarkObjects: 0.436543 ms  DeleteObjects: 0.021333 ms)
 

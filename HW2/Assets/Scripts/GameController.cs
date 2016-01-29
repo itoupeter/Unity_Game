@@ -11,11 +11,18 @@ public class GameController : MonoBehaviour {
     public int score;
     public GameObject asteroid;
     public GameObject player;
+    public GameObject UFO;
+    public Transform spawnUFO;
+    public float spawnUFOWait;
     public Text textScore;
     public Text textLife;
 
     private int level;
     
+    void Start() {
+        StartCoroutine( spawnUFOByTime() );
+    }
+
 	void Update () {
 	    if( nAsteroids == 0 ) {
             nAsteroids = ++level;
@@ -45,6 +52,13 @@ public class GameController : MonoBehaviour {
             Quaternion rotation = new Quaternion();
 
             Instantiate( asteroid, position, rotation );
+        }
+    }
+
+    IEnumerator spawnUFOByTime() {
+        for( ; ; ) {
+            Instantiate( UFO, spawnUFO.position, spawnUFO.rotation );
+            yield return new WaitForSeconds( spawnUFOWait );
         }
     }
 }
