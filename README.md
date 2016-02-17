@@ -5,6 +5,7 @@
 
 
 Extend game play<br>
+-3D camera mode
 -Every dozens of seconds a group of 3 space freighters will go across the screen. Player will need to protect them from being hit by asteroids.<br>
 -If all freighters get through safely, player will get an extra life.<br>
 -If 1 or 2 freighters get through safely, player will get major bonus score for each freighter.<br>
